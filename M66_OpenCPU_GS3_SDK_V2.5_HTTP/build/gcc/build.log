@@ -1,0 +1,1006 @@
+custom/config/custom_sys_cfg.c:83:1: warning: excess elements in struct initializer [enabled by default]
+custom/config/custom_sys_cfg.c:83:1: warning: (near initialization for 'wtdCfg') [enabled by default]
+ril/src/ril_atResponse.c: In function 'Ql_RIL_AT_SetErrCode':
+ril/src/ril_atResponse.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ril/src/ril_audio.c: In function 'ATResponse_AUD_handler':
+ril/src/ril_audio.c:399:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+ril/src/ril_bluetooth.c: In function 'OnURCHandler_BTDisconn':
+ril/src/ril_bluetooth.c:1531:10: warning: unused variable 'profileId' [-Wunused-variable]
+ril/src/ril_location.c: In function 'ATResponse_GetLocation_Ex_Handler':
+ril/src/ril_location.c:78:11: warning: unused variable 'p2' [-Wunused-variable]
+ril/src/ril_location.c:77:11: warning: unused variable 'p1' [-Wunused-variable]
+ril/src/ril_location.c: In function 'OnURCHandler_QCELLLocation':
+ril/src/ril_location.c:176:11: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+ril/src/ril_location.c:177:9: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_location.c:38:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c: In function 'RIL_MQTT_QMTSUB':
+ril/src/ril_mqtt.c:179:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:179:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:183:11: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:183:11: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:185:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:185:3: warning: pointer targets in passing argument 1 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:185:3: warning: pointer targets in passing argument 2 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:189:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:189:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:190:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:190:5: warning: pointer targets in passing argument 1 of 'Ql_RIL_SendATCmd' differ in signedness [-Wpointer-sign]
+In file included from ril/inc/ril_mqtt.h:37:0,
+                 from ril/src/ril_mqtt.c:33:
+ril/inc/ril.h:187:12: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c: In function 'RIL_MQTT_QMTUNS':
+ril/src/ril_mqtt.c:239:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:239:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:243:11: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:243:11: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:245:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:245:3: warning: pointer targets in passing argument 1 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:245:3: warning: pointer targets in passing argument 2 of 'Ql_strncat' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:49:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:249:5: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:249:5: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:251:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_mqtt.c:35:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c:251:5: warning: pointer targets in passing argument 1 of 'Ql_RIL_SendATCmd' differ in signedness [-Wpointer-sign]
+In file included from ril/inc/ril_mqtt.h:37:0,
+                 from ril/src/ril_mqtt.c:33:
+ril/inc/ril.h:187:12: note: expected 'char *' but argument is of type 'u8 *'
+ril/src/ril_mqtt.c: In function 'ATResponse_QMTPUB_handler':
+ril/src/ril_mqtt.c:302:8: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:309:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:314:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:319:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ril/src/ril_mqtt.c:299:9: warning: unused variable 'i' [-Wunused-variable]
+ril/src/ril_network.c: In function 'ATRsp_COPS_Handler':
+ril/src/ril_network.c:501:14: warning: unused variable 'str' [-Wunused-variable]
+ril/src/ril_ntp.c: In function 'OnURCHandler_NTPCMD':
+ril/src/ril_ntp.c:50:4: warning: passing argument 1 of 'callback_NTPCMD' discards 'const' qualifier from pointer target type [enabled by default]
+ril/src/ril_ntp.c:50:4: note: expected 'char *' but argument is of type 'const char *'
+ril/src/ril_system.c: In function 'QSDK_Get_Strlen':
+ril/src/ril_system.c:458:1: warning: control reaches end of non-void function [-Wreturn-type]
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_OPEN':
+ril/src/ril_urc.c:654:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_CONN':
+ril/src/ril_urc.c:690:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_SUB':
+ril/src/ril_urc.c:725:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+ril/src/ril_urc.c:729:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+ril/src/ril_urc.c:734:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_PUB':
+ril/src/ril_urc.c:775:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_TUNS':
+ril/src/ril_urc.c:804:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_STATE':
+ril/src/ril_urc.c:830:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_CLOSE':
+ril/src/ril_urc.c:858:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+ril/src/ril_urc.c: In function 'OnURCHandler_MQTT_DISC':
+ril/src/ril_urc.c:888:3: warning: passing argument 4 of 'Ql_OS_SendMessage' makes integer from pointer without a cast [enabled by default]
+In file included from ril/src/ril_urc.c:40:0:
+include/ql_system.h:535:5: note: expected 'u32' but argument is of type 'struct MQTT_Urc_Param_t *'
+example/example_Universal_Code_Modbus_Comm_V09.c:362:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:363:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:364:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:365:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:377:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:381:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:382:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:384:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:424:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:427:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'proc_main_task':
+example/example_Universal_Code_Modbus_Comm_V09.c:489:2: warning: pointer targets in passing argument 1 of 'Ql_FS_CheckDir' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:476:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:493:3: warning: pointer targets in passing argument 1 of 'Ql_FS_CreateDir' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:431:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:497:4: warning: 'return' with a value, in function returning void [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:516:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:614:11: warning: pointer targets in passing argument 3 of 'SEND_SMS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:373:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:619:11: warning: pointer targets in passing argument 3 of 'SEND_SMS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:373:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:643:79: warning: unknown escape sequence: '\-' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:687:7: warning: implicit declaration of function 'SYSTEM_INITIALIZE' [-Wimplicit-function-declaration]
+example/example_Universal_Code_Modbus_Comm_V09.c:440:9: warning: unused variable 'wtdid' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:439:8: warning: unused variable 'p2' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:438:6: warning: unused variable 'writenLen' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:435:6: warning: unused variable 'readenLen' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:434:6: warning: unused variable 'handle' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:433:5: warning: unused variable 'temp_ch' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:432:14: warning: unused variable 'j' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:432:9: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'READ_DATA_FROM_UFS':
+example/example_Universal_Code_Modbus_Comm_V09.c:760:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:761:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:762:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:763:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:764:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:765:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:766:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:767:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:768:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:769:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:770:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:771:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:772:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:773:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:790:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:790:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:791:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:791:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:796:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:796:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:797:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:797:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:801:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:801:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:802:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:802:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:806:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:806:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:807:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:807:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:811:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:811:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:812:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:812:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:816:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:816:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:817:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:817:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:821:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:821:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:822:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:822:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:826:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:826:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:827:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:827:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:831:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:831:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:832:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:832:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:836:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:836:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:837:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:837:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:841:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:841:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:842:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:842:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:846:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:846:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:847:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:847:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:851:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:851:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:852:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:852:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:856:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:856:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:857:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:857:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:863:5: warning: pointer targets in passing argument 1 of 'Ql_FS_Check' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:375:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:870:2: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:881:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:881:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:889:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:905:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:916:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:926:8: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:936:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:940:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:940:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:961:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:961:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:993:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:993:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1000:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1024:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1026:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1028:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1030:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1034:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1034:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1034:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1034:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1046:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1046:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1061:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1061:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1073:4: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1083:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1083:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1100:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1100:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1110:4: warning: pointer targets in passing argument 1 of 'PORT_VALUE_CAL' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:369:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1119:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1119:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1131:5: warning: pointer targets in passing argument 1 of 'CONVERT_TIME_BUFFER_TO_SECONDS_VALUE' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:370:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1141:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1141:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1149:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1162:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1148:32: warning: unused variable 'r' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:1173:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1173:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1190:3: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1190:3: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1200:4: warning: pointer targets in passing argument 1 of 'PORT_VALUE_CAL' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:369:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1245:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1254:6: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1261:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1243:21: warning: unused variable 'q' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:759:6: warning: unused variable 'filename' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:758:9: warning: unused variable 'j' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'WRITE_DATA_TO_UFS':
+example/example_Universal_Code_Modbus_Comm_V09.c:1284:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1289:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1294:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1299:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1304:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1309:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1314:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1319:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1324:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1329:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1334:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1339:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1344:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1348:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1363:3: warning: pointer targets in passing argument 2 of 'Ql_FS_Write' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:223:5: note: expected 'u8 *' but argument is of type 'char *'
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:1391:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:1425:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:1488:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:1488:6: warning: conflicting types for 'SYSTEM_INITIALIZE' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:687:7: note: previous implicit declaration of 'SYSTEM_INITIALIZE' was here
+example/example_Universal_Code_Modbus_Comm_V09.c:1557:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'FOTA_upgrade':
+example/example_Universal_Code_Modbus_Comm_V09.c:1576:3: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1583:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1583:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:1593:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'MODBUS_WRITE_QUERIES':
+example/example_Universal_Code_Modbus_Comm_V09.c:1600:79: warning: unknown escape sequence: '\M' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:1605:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1605:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1606:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1606:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:1621:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'MODBUS_READ_QURIES':
+example/example_Universal_Code_Modbus_Comm_V09.c:1665:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1665:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1665:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1665:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Callback_UART_Hdlr_Main_Port':
+example/example_Universal_Code_Modbus_Comm_V09.c:1764:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/example_Universal_Code_Modbus_Comm_V09.c:1764:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/example_Universal_Code_Modbus_Comm_V09.c:1773:46: warning: unknown escape sequence: '\D' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:1774:55: warning: unknown escape sequence: '\D' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:1776:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1782:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1788:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1820:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1846:9: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1859:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1892:8: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1904:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1915:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1926:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1937:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1952:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:1984:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1986:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1988:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1990:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1994:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1994:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1994:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:1994:10: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2001:9: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2010:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2024:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2024:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2024:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2024:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2032:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2082:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2089:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2099:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2108:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2117:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2126:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2135:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2165:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2172:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2182:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2191:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2221:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2231:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2235:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2235:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2237:7: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2255:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2255:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2264:6: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2274:8: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:2303:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/example_Universal_Code_Modbus_Comm_V09.c:1744:6: warning: unused variable 'ret' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:1743:7: warning: unused variable 'my_char' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:1742:11: warning: unused variable 'lenn' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:1742:9: warning: unused variable 'k' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Callback_UART_Hdlr_Modbus_Port':
+example/example_Universal_Code_Modbus_Comm_V09.c:2352:5: warning: pointer targets in passing argument 1 of 'MODBUS_RESPONSE_CHECK' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:376:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2325:2: warning: enumeration value 'EVENT_UART_READY_TO_WRITE' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2325:2: warning: enumeration value 'EVENT_UART_FE_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2325:2: warning: enumeration value 'EVENT_UART_RI_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2325:2: warning: enumeration value 'EVENT_UART_DCD_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2325:2: warning: enumeration value 'EVENT_UART_DTR_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2324:11: warning: unused variable 'q' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2323:7: warning: unused variable 'setting_flag' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2320:6: warning: unused variable 'ret' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2318:11: warning: unused variable 'lenn' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Callback_UART_Hdlr_ETHERNET_PORT':
+example/example_Universal_Code_Modbus_Comm_V09.c:2368:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/example_Universal_Code_Modbus_Comm_V09.c:2368:5: warning: suggest parentheses around comparison in operand of '|' [-Wparentheses]
+example/example_Universal_Code_Modbus_Comm_V09.c:2370:9: warning: enumeration value 'EVENT_UART_READY_TO_WRITE' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2370:9: warning: enumeration value 'EVENT_UART_FE_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2370:9: warning: enumeration value 'EVENT_UART_RI_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2370:9: warning: enumeration value 'EVENT_UART_DCD_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2370:9: warning: enumeration value 'EVENT_UART_DTR_IND' not handled in switch [-Wswitch]
+example/example_Universal_Code_Modbus_Comm_V09.c:2366:17: warning: unused variable 'p' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2366:8: warning: unused variable 'q' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2365:7: warning: unused variable 'setting_flag' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2364:6: warning: unused variable 'ret' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2363:7: warning: unused variable 'my_char' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2362:11: warning: unused variable 'lenn' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2362:9: warning: unused variable 'k' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2362:6: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Hdlr_RecvNewSMS':
+example/example_Universal_Code_Modbus_Comm_V09.c:2410:2: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/example_Universal_Code_Modbus_Comm_V09.c:2579:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2580:2: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2591:2: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2596:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2642:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2651:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2704:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2711:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2712:5: warning: pointer targets in passing argument 1 of 'PORT_VALUE_CAL' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:369:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2724:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2778:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2785:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2786:5: warning: pointer targets in passing argument 1 of 'PORT_VALUE_CAL' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:369:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2797:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2836:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2847:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2903:5: warning: pointer targets in passing argument 2 of 'WRITE_DATA_TO_UFS' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:1273:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2905:5: warning: pointer targets in passing argument 1 of 'CONVERT_TIME_BUFFER_TO_SECONDS_VALUE' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:370:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2906:5: warning: pointer targets in passing argument 1 of 'CONVERT_TIME_BUFFER_TO_SECONDS_VALUE' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:370:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2917:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2980:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2987:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2997:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3006:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3015:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3024:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3033:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3058:6: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/example_Universal_Code_Modbus_Comm_V09.c:3073:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3080:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3089:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3098:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3123:6: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/example_Universal_Code_Modbus_Comm_V09.c:3134:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3141:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3154:4: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3170:4: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3184:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3196:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:3227:5: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/example_Universal_Code_Modbus_Comm_V09.c:3235:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3246:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3263:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3274:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3285:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3297:2: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:2406:26: warning: unused variable 'p1' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2405:5: warning: unused variable 'strBuf' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2404:6: warning: unused variable 'writeBuffer' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2403:6: warning: unused variable 'handle' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2402:6: warning: unused variable 'position' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2401:6: warning: unused variable 'readenLen' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2400:6: warning: unused variable 'writenLen' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2391:6: warning: unused variable 'uMsgRef' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'SMS_Initialize':
+example/example_Universal_Code_Modbus_Comm_V09.c:3327:9: warning: unused variable 'nTotal' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:3326:9: warning: unused variable 'nUsed' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:3325:9: warning: unused variable 'nCurrStorage' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'GPRS_TCP_Program':
+example/example_Universal_Code_Modbus_Comm_V09.c:3586:4: warning: 'return' with a value, in function returning void [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:3644:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:3644:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3648:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:3648:4: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3650:4: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3658:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:3658:4: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3660:4: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:3638:107: warning: unused variable 'COMMUNICATION_ERR_PORT3' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:3638:68: warning: unused variable 'COMMUNICATION_ERR_PORT2' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:3634:11: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:3912:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Callback_Socket_Read':
+example/example_Universal_Code_Modbus_Comm_V09.c:4061:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4061:5: warning: pointer targets in passing argument 2 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4088:42: warning: unknown escape sequence: '\i' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'TIMER_HANDLER':
+example/example_Universal_Code_Modbus_Comm_V09.c:4370:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+example/example_Universal_Code_Modbus_Comm_V09.c:4157:6: warning: unused variable 'iRet' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:4436:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'STORE_TIME_TO_MEMORY':
+example/example_Universal_Code_Modbus_Comm_V09.c:4446:6: warning: assignment makes integer from pointer without a cast [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:4439:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4438:11: warning: unused variable 'pTime' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:4462:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:4480:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'GET_Present_Time':
+example/example_Universal_Code_Modbus_Comm_V09.c:4488:6: warning: assignment makes integer from pointer without a cast [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:4510:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4510:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4487:6: warning: unused variable 'present_min' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4486:8: warning: unused variable 'temp' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4486:5: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4484:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'ATResponse_Sync_NetworkTime_handler':
+example/example_Universal_Code_Modbus_Comm_V09.c:4523:3: warning: pointer targets in passing argument 1 of 'Set_LocalTime' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:367:6: note: expected 'u8 *' but argument is of type 'char *'
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Set_LocalTime':
+example/example_Universal_Code_Modbus_Comm_V09.c:4562:2: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+example/example_Universal_Code_Modbus_Comm_V09.c:4546:7: warning: unused variable 'add_gmt_flag' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'PORT_VALUE_CAL':
+example/example_Universal_Code_Modbus_Comm_V09.c:4664:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:4669:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Callback_Location':
+example/example_Universal_Code_Modbus_Comm_V09.c:4728:20: warning: unused variable 'test1' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4728:7: warning: unused variable 'test' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4727:31: warning: unused variable 'k' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4727:26: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4727:18: warning: unused variable 'string2' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4727:9: warning: unused variable 'string1' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'HTTP_Program':
+example/example_Universal_Code_Modbus_Comm_V09.c:4772:2: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4772:2: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4776:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4776:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4778:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4785:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4785:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4787:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4801:3: warning: pointer targets in passing argument 2 of 'RIL_NW_SetAPN' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:59:0:
+ril/inc/ril_network.h:170:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4816:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4816:5: warning: pointer targets in passing argument 1 of 'RIL_HTTP_SetServerURL' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:60:0:
+ril/inc/ril_http.h:16:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4834:9: warning: pointer targets in passing argument 1 of 'RIL_HTTP_RequestToPost' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:60:0:
+ril/inc/ril_http.h:22:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4855:4: warning: implicit declaration of function 'STORE_DATA_STRING_TO_MEMORY' [-Wimplicit-function-declaration]
+example/example_Universal_Code_Modbus_Comm_V09.c:4766:106: warning: unused variable 'COMMUNICATION_ERR_PORT3' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4766:67: warning: unused variable 'COMMUNICATION_ERR_PORT2' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4762:13: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:4873:6: warning: conflicting types for 'STORE_DATA_STRING_TO_MEMORY' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:4855:4: note: previous implicit declaration of 'STORE_DATA_STRING_TO_MEMORY' was here
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'STORE_DATA_STRING_TO_MEMORY':
+example/example_Universal_Code_Modbus_Comm_V09.c:4885:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Check' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:375:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4891:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4902:3: warning: pointer targets in passing argument 2 of 'Ql_FS_Write' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:223:5: note: expected 'u8 *' but argument is of type 'char *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4907:3: warning: implicit declaration of function 'STORE_DATA_COUNT_TO_MEMORY' [-Wimplicit-function-declaration]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:4915:1: warning: return type defaults to 'int' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:4915:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:4926:1: warning: return type defaults to 'int' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:4926:1: warning: conflicting types for 'CREATE_AND_STORE_MODBUS_DATA' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:361:6: note: previous declaration of 'CREATE_AND_STORE_MODBUS_DATA' was here
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'CREATE_AND_STORE_MODBUS_DATA':
+example/example_Universal_Code_Modbus_Comm_V09.c:4938:2: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4938:2: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4942:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4942:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4944:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4951:3: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4951:3: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4953:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:62:0:
+c:\program files (x86)\codesourcery\sourcery_codebench_lite_for_arm_eabi\bin\../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/include/string.h:34:9: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4962:3: warning: pointer targets in passing argument 1 of 'STORE_DATA_STRING_TO_MEMORY' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:4873:6: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4932:106: warning: unused variable 'COMMUNICATION_ERR_PORT3' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4932:67: warning: unused variable 'COMMUNICATION_ERR_PORT2' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4928:10: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4928:6: warning: unused variable 'ret' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:4967:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'SEND_STORE_DATA':
+example/example_Universal_Code_Modbus_Comm_V09.c:4987:3: warning: pointer targets in passing argument 1 of 'Ql_FS_Open' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:57:0:
+include/ql_fs.h:124:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:5008:3: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:5011:4: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:5019:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5023:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:51:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:5030:6: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5049:4: warning: pointer targets in passing argument 1 of 'RIL_HTTP_RequestToPost' differ in signedness [-Wpointer-sign]
+In file included from example/example_Universal_Code_Modbus_Comm_V09.c:60:0:
+ril/inc/ril_http.h:22:5: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:4973:9: warning: unused variable 'j' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:4973:7: warning: unused variable 'i' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'MODBUS_RESPONSE_CHECK':
+example/example_Universal_Code_Modbus_Comm_V09.c:5080:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5080:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5084:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5094:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5094:2: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5096:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5140:4: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+example/example_Universal_Code_Modbus_Comm_V09.c:5140:18: warning: incompatible implicit declaration of built-in function 'pow' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:5067:6: warning: unused variable 'ret' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'SEPARATE_MODBUS_DATA':
+example/example_Universal_Code_Modbus_Comm_V09.c:5227:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5229:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5233:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5233:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5236:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5236:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5242:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5242:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5221:10: warning: unused variable 'i2' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:5247:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c:5290:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'CREATE_PAYLOAD_FOR_SERVER':
+example/example_Universal_Code_Modbus_Comm_V09.c:5322:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:5322:4: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:5335:4: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+example/example_Universal_Code_Modbus_Comm_V09.c:5335:4: note: expected 'char *' but argument is of type 'u8 *'
+example/example_Universal_Code_Modbus_Comm_V09.c:5301:8: warning: unused variable 'FLOAT_DATA_OF_METER' [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'HEX_TO_FLOAT':
+example/example_Universal_Code_Modbus_Comm_V09.c:5371:2: warning: implicit declaration of function 'floor' [-Wimplicit-function-declaration]
+example/example_Universal_Code_Modbus_Comm_V09.c:5371:14: warning: incompatible implicit declaration of built-in function 'floor' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c:5371:31: warning: incompatible implicit declaration of built-in function 'pow' [enabled by default]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'CREATE_AND_SEND_MODBUS_DATA':
+example/example_Universal_Code_Modbus_Comm_V09.c:5471:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5471:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'CALCULATE_CRC':
+example/example_Universal_Code_Modbus_Comm_V09.c:5531:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c:5531:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+example/example_Universal_Code_Modbus_Comm_V09.c: At top level:
+example/example_Universal_Code_Modbus_Comm_V09.c:224:11: warning: 'm_Read_Buffer_fota' defined but not used [-Wunused-variable]
+example/example_Universal_Code_Modbus_Comm_V09.c:2358:13: warning: 'Callback_UART_Hdlr_ETHERNET_PORT' defined but not used [-Wunused-function]
+example/example_Universal_Code_Modbus_Comm_V09.c:4382:6: warning: 'callback_onTimer' defined but not used [-Wunused-function]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'STORE_DATA_COUNT_TO_MEMORY':
+example/example_Universal_Code_Modbus_Comm_V09.c:4924:1: warning: control reaches end of non-void function [-Wreturn-type]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'GPRS_TCP_Program':
+example/example_Universal_Code_Modbus_Comm_V09.c:3665:3: warning: 'Data_Packet_Length' may be used uninitialized in this function [-Wmaybe-uninitialized]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'SYSTEM_INITIALIZE':
+example/example_Universal_Code_Modbus_Comm_V09.c:4708:5: warning: 'pdpCntxtId' may be used uninitialized in this function [-Wmaybe-uninitialized]
+example/example_Universal_Code_Modbus_Comm_V09.c:4697:9: note: 'pdpCntxtId' was declared here
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'Hdlr_RecvNewSMS.isra.5':
+example/example_Universal_Code_Modbus_Comm_V09.c:2603:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2657:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2670:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2730:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2743:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2803:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2853:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c:2867:18: warning: array subscript is above array bounds [-Warray-bounds]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'CREATE_AND_STORE_MODBUS_DATA':
+example/example_Universal_Code_Modbus_Comm_V09.c:4957:2: warning: 'Data_Packet_Length' may be used uninitialized in this function [-Wmaybe-uninitialized]
+example/example_Universal_Code_Modbus_Comm_V09.c: In function 'HTTP_Program.constprop.8':
+example/example_Universal_Code_Modbus_Comm_V09.c:4834:13: warning: 'Data_Packet_Length' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_ftp.c: In function 'FTP_FotaMain':
+custom/fota/src/fota_ftp.c:44:9: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Callback_OnDownload':
+custom/fota/src/fota_ftp.c:83:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c:82:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Program':
+custom/fota/src/fota_ftp.c:124:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Callback_OnDownload':
+custom/fota/src/fota_ftp.c:315:35: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_ftp.c:198:10: note: 'retValue' was declared here
+custom/fota/src/fota_http.c:46:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_http.c: In function 'HTTP_IsHttpServer':
+custom/fota/src/fota_http.c:63:5: warning: implicit declaration of function 'Ql_StrToUpper' [-Wimplicit-function-declaration]
+custom/fota/src/fota_http.c: In function 'HTTP_FotaMain':
+custom/fota/src/fota_http.c:94:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:94:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:95:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:95:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:96:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:96:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:46:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:124:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:124:15: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/fota/src/fota_http.c:128:9: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:77:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: At top level:
+custom/fota/src/fota_http.c:216:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_http.c: In function 'http_GetImagefilefromServer':
+custom/fota/src/fota_http.c:219:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_SendHttpGetHead':
+custom/fota/src/fota_http.c:274:5: warning: pointer targets in passing argument 2 of 'Ql_strncpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:276:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:296:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:306:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:316:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:326:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:336:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:266:9: warning: unused variable 'retValue' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpHead':
+custom/fota/src/fota_http.c:359:10: warning: unused variable 'entryfunctionexe' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpChunkedBody':
+custom/fota/src/fota_http.c:500:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'Httpcallback_socket_read':
+custom/fota/src/fota_http.c:638:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'Callback_GetIpByHostName':
+custom/fota/src/fota_http.c:724:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_TimerCallback':
+custom/fota/src/fota_http.c:746:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpBody':
+custom/fota/src/fota_http.c:576:31: warning: 'fileDLpresentReport' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_http.c:607:40: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_http_code.c: In function 'DecodeHttpResult':
+custom/fota/src/fota_http_code.c:72:13: warning: pointer targets in passing argument 1 of 'Ql_atoi' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:40:8: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c: In function 'http_DecodeURL':
+custom/fota/src/fota_http_code.c:144:9: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:53:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c:144:9: warning: pointer targets in passing argument 1 of 'http_ip_check' differ in signedness [-Wpointer-sign]
+custom/fota/src/fota_http_code.c:49:6: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c:189:13: warning: pointer targets in passing argument 1 of 'Ql_atoi' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:40:8: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c:100:10: warning: unused variable 'ip_validity' [-Wunused-variable]
+custom/fota/src/fota_http_code.c:98:8: warning: unused variable 'ipadd' [-Wunused-variable]
+custom/fota/src/fota_http_code.c: In function 'DecodeHttpLine':
+custom/fota/src/fota_http_code.c:296:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:306:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:306:9: warning: pointer targets in passing argument 1 of 'Ql_atoi' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http_code.c:1:0:
+include/ql_stdlib.h:40:8: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http_code.c: In function 'http_DecodeHeader':
+custom/fota/src/fota_http_code.c:375:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:381:9: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+custom/fota/src/fota_http_code.c:361:28: warning: unused variable 'httpContext_p' [-Wunused-variable]
+custom/fota/src/fota_http_code.c:358:9: warning: unused variable 'startpos' [-Wunused-variable]
+custom/fota/src/fota_main.c: In function 'Ql_FOTA_StartUpgrade':
+custom/fota/src/fota_main.c:33:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]

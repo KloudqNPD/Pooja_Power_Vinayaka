@@ -1,0 +1,6 @@
+CatcherTran::MtkCommIOInit()...
+[commModule][MtkCommIOLog]D:\Projects\TOR IOTA\M66_2.5V\M66_OpenCPU_GS3_SDK_V2.5\tools\QFlash_V4.0\QFlash_V4.0\\MtkCommIODLL.dll
+[commModule][MtkCommIOLog]Load MtkCommIO Library Failed...
+[CatcherTran][MtkCommIOLog]MtkCommIODll_Init Failed.
+[commModule][MtkCommIOLog]Rs232Module::Internal_Start().......m_port = 5, baud = 115200
+[commModule][MtkCommIOLog]Rs232Module::Internal_Start().......hCOM = 0x18E8

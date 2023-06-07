@@ -1,0 +1,72 @@
+
+
+
+
+
+
+s32 Ql_UART_Write(Enum_SerialPort port, u8* data, u32 writeLen );
+Ql_UART_Write(UART_PORT1, m_RxBuf_Uart1, totalBytes);
+
+Ql_RIL_SendATCmd(strAT, Ql_strlen(strAT), NULL, NULL, 0);
+ret = Ql_RIL_SendATCmd((char*)m_RxBuf_Uart1, totalBytes, ATResponse_Handler, NULL, 0);
+
+static s32 ReadSerialPort(Enum_SerialPort port, /*[out]*/u8* pBuffer, /*[in]*/u32 bufLen)
+
+ ret = RIL_BT_SPP_Send(BTDevHdl,SppSendBuff,send_size,NULL);
+ 
+ pstconBtdev = (ST_BT_BasicInfo*)param1;
+ APP_DEBUG("Pair device BTHdl: 0x%08x\r\n",pstconBtdev->devHdl);
+ 
+ ST_BT_BasicInfo *pstconBtdev = NULL;
+ 
+ void* param1
+ 
+ len = Ql_strlen((const char *)(DBG_BUFFER));\
+ 
+ debug the dev handler somewhere in the code mostly do below the welcome to ktl
+ 
+ //ret = RIL_BT_SPP_Send(pstuserBtdev.devHdl,DBG_BUFFER,Ql_strlen((const char *)(DBG_BUFFER)),NULL);\
+ 
+ 
+ 
+ 
+ SIMCOM 868
+ 
+ Mc drives SIMCOM to send AT Cmd
+ 
+ For 2G
+    868 have GPS 800 not
+	Nucleus OS is used (It is a RTOS)
+	MCU send Via UART to SIM800
+	receiving also
+	
+	In AT Command
+	APP to SIM800 core
+	receiving also
+	
+	16 soft timers and 1 hwd timers
+	timer Id from 0  to 15
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
